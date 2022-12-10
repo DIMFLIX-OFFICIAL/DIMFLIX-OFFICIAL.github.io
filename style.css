@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: var(--tg-theme-text-color);
+	background: var(--tg-theme-secondary-bg-color);
+}
+
+.container {
+    margin-top: 5px;
+	max-width: 390px;
+	display: block;
+	padding: 0px 20px;
+
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    border: 1px solid var(--tg-theme-button-color);
+    border-radius: 5px;
+    background: var(--tg-theme-bg-color);
+    color: var(--tg-theme-text-color);
+
+}
+
+.input:focus {
+    border: 2px solid var(--tg-theme-button-color);
+}
+
+.input::-webkit-input-placeholder {
+    color: var(-tg-theme-hint-color);
+}
