@@ -10,7 +10,11 @@ tg.MainButton.setText("Отправить данные");
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
     let name = document.getElementById('name').value;
-    tg.sendData(name);
+    let surname = document.getElementById('surname').value;
+    let age = document.getElementById('age').value;
+    let comment = document.getElementById('comment').value;
+    
+    tg.sendData([name, surname, age, comment]);
 });
 
 
