@@ -6,7 +6,7 @@ tg.MainButton.textColor = document.documentElement.style.getPropertyValue('--tg-
 tg.MainButton.color = document.documentElement.style.getPropertyValue('--tg-theme-button-color');
 
 
-
+tg.MainButton.show();
 
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
