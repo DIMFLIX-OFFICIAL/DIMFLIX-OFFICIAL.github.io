@@ -11,11 +11,6 @@ surname = document.getElementById('surname').value;
 age = document.getElementById('age').value;
 comment = document.getElementById('comment').value;
 
-console.log(name);
-console.log(surname);
-console.log(age);
-console.log(comment);
-
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
     name = document.getElementById('name').value;
