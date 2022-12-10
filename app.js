@@ -20,7 +20,7 @@ Telegram.WebApp.onEvent("mainButtonClicked", function(){
         tg.sendData(name);
     } catch(e) {
         let p = document.createElement("p");
-        p.innerText = e';
+        p.innerText = e;
         
         let container = document.getElementById('container')
         container.appendChild(p); 
