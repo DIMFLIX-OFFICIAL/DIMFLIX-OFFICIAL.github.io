@@ -20,11 +20,3 @@ Telegram.WebApp.onEvent("mainButtonClicked", function(){
 });
 
 
-let usercard = document.getElementById("usercard");
-let p = document.createElement("p");
-
-p.innerText = `Приветствую вас, ${tg.initDataUnsafe.user.first_name}`;
-
-usercard.appendChild(p); 
-
-
