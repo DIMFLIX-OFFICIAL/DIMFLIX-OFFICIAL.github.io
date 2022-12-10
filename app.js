@@ -6,14 +6,14 @@ tg.MainButton.color = document.documentElement.style.getPropertyValue('--tg-them
 
 tg.MainButton.show();
 
-name = document.getElementById('name').value;
-surname = document.getElementById('surname').value;
-age = document.getElementById('age').value;
-comment = document.getElementById('comment').value;
+let name = document.getElementById('name').value;
+let surname = document.getElementById('surname').value;
+let age = document.getElementById('age').value;
+let comment = document.getElementById('comment').value;
 
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
-    name = document.getElementById('name').value;
+    let name = document.getElementById('name').value;
     tg.sendData(name);
 });
 
