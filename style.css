@@ -25,10 +25,3 @@ body {
 
 }
 
-.input:focus {
-    border: 2px solid var(--tg-theme-button-color);
-}
-
-.input::-webkit-input-placeholder {
-    color: var(-tg-theme-hint-color);
-}
