@@ -1,7 +1,5 @@
 let tg = window.Telegram.WebApp;
 
-tg.expand();
-
 tg.MainButton.textColor = document.documentElement.style.getPropertyValue('--tg-theme-text-color');
 tg.MainButton.color = document.documentElement.style.getPropertyValue('--tg-theme-button-color');
 
