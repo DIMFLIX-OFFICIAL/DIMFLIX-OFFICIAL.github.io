@@ -14,7 +14,9 @@ Telegram.WebApp.onEvent("mainButtonClicked", function(){
     let age = document.getElementById('age').value;
     let comment = document.getElementById('comment').value;
     
-    tg.sendData([name, surname, age, comment]);
+    var all_data = [name, surname, age, comment]
+    
+    tg.sendData(all_data);
 });
 
 
